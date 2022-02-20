@@ -3,6 +3,7 @@ Create an array of 5 elements with values {1,7,4,7,6}.Search value 7 in the give
  all the  occurrence(index) of search value(7) by holding the index in a result array . Do it recursively
  */
 public class occurrences {
+//    th
     public static int[] sol(int arr[], int ci,int search, int count)
     {
         // base case
