@@ -13,15 +13,18 @@ class Test{
         BinaryNode rright=new BinaryNode(5);
         root.left=rleft;
         root.right=rright;
-        print(root);
+        System.out.println(print(root));
     }
-    public static void print(BinaryNode root){
+    public static int   print(BinaryNode root){
         if(root==null){
-            return;
+            return 0;
         }
-        print(root.left);
-        print(root.right);
-        System.out.println(root.data);
+        int leftnodes=print(root.left);
+        int rightnode=print(root.right);
+        return leftnodes+rightnode+1;
+//        print(root.left);
+//        print(root.right);
+//        System.out.println(root.data);
 
 
     }
