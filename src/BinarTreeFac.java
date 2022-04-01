@@ -17,7 +17,7 @@ public class BinarTreeFac {
             return 1;
         }else {
             while (num>1){
-                fact=fact*1;
+                fact=fact*num;
                 num--;
             }
             return fact;
