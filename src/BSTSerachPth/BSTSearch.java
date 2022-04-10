@@ -38,7 +38,7 @@ public class BSTSearch {
     {
         if(root == null)
         {
-            return null;
+            return  null;
         }
         if(root.data == val)
         {
@@ -50,7 +50,7 @@ public class BSTSearch {
         {
             ArrayList left= path(root.left,val);
             if(left != null) {
-                left.add(root.data);
+             left.add(root.data);
             }
             return left;
         }
