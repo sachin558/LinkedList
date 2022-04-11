@@ -21,6 +21,7 @@ public class insert {
         }
 
     }
+
     public static void inorder(Node root){
         if(root==null){
             return;
